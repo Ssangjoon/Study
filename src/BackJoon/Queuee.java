@@ -4,9 +4,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Stack {
-  public static int[] stack;
+public class Queuee {
+  public static int[] queue;
   public static int size = 0;
+  public static int front = 0;
+  public static int rear = 0;
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,8 +18,7 @@ public class Stack {
 
     int N = Integer.parseInt(br.readLine());
 
-    stack = new int[N];
-
+    queue = new int[N];
 
     while(N-- > 0) {
       st = new StringTokenizer(br.readLine(), " ");
@@ -32,45 +33,47 @@ public class Stack {
         case "size":
           System.out.println(size());
           break;
-        case "empty":
-          System.out.println(empty());
+        case "front":
+          System.out.println(front());
           break;
-        case "top":
-          System.out.println(top());
+        case "back":
+          System.out.println(back());
           break;
       }
+    }
+    void push(){
 
     }
-  }
 
-  static void push(int X) {
-    stack[size] = X;    
-    size++;
-  }
-
-  static int pop() {
-    if(size == 0) {
-      return -1;
+    static int pop() {
+      if (size == 0) {
+        return 1;
+      } else {
+        int item = rear; 
+        rear = 0;
+        return item;
+      }
     }
-    int pop = stack[--size] ;
-    stack[size +1] = 0;
-    return pop;
-  }
 
-  static int size() {
-    return size;
-  }
-
-  static int empty() {
-    if (size == 0) {
-      return 1;
-    } else return 0;
-  }
-
-  static int top() {
-    if(size == 0) {
-      return -1;
+    static int size() {
+      return size;
     }
-    return stack[size-1];
+
+    static int empty () {
+      if (size == 0) {
+        return 1;
+      } else return 0;
+    }
+
+    static int front() {
+      if(empty() == 1) {
+        return -1;
+      } else return rear;
+    }
+
+    static int back() {
+      if(empty() == 1) {
+        return -1;
+      } else return rear;
+    }
   }
-}
