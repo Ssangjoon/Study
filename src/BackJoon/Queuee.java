@@ -7,12 +7,11 @@ import java.util.StringTokenizer;
 public class Queuee {
   public static int[] queue;
   public static int size = 0;
-  public static int front = 0;
-  public static int rear = 0;
+  public static int front = 0; // pop 기준
+  public static int rear = 0; // push 기준
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    StringBuilder sb = new StringBuilder();
 
     StringTokenizer st;
 
@@ -39,41 +38,46 @@ public class Queuee {
         case "back":
           System.out.println(back());
           break;
+        case "empty":
+          System.out.println(empty());
+          break;
       }
-    }
-    void push(){
-
-    }
-
-    static int pop() {
-      if (size == 0) {
-        return 1;
-      } else {
-        int item = rear; 
-        rear = 0;
-        return item;
-      }
-    }
-
-    static int size() {
-      return size;
-    }
-
-    static int empty () {
-      if (size == 0) {
-        return 1;
-      } else return 0;
-    }
-
-    static int front() {
-      if(empty() == 1) {
-        return -1;
-      } else return rear;
-    }
-
-    static int back() {
-      if(empty() == 1) {
-        return -1;
-      } else return rear;
     }
   }
+  static void push(int X){
+    rear = (rear+1)%queue.length;
+    queue[rear] = X;
+    size ++;
+  }
+
+  static int pop() {
+    if (size == 0) {
+      return -1;
+    } else {
+      int item = queue[front+1]; 
+      queue[front+1] = 0;
+      front++;size--;
+      return item;
+    }
+  }
+
+  static int size() {
+    return size;
+  }
+
+  static int empty () {
+    return size == 0 ? 1 : 0;
+  }
+
+  static int front() {
+    if(empty() == 1) {
+      return -1;
+    } else return queue[front+1];
+  }
+
+  static int back() {
+    if(empty() == 1) {
+      return -1;
+    } else return queue[rear];
+  }
+}

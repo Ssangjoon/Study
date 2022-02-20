@@ -61,9 +61,7 @@ public class Stackk {
   }
 
   static int empty() {
-    if (size == 0) {
-      return 1;
-    } else return 0;
+    return size == 0 ? 1:0;
   }
 
   static int top() {

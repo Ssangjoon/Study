@@ -17,7 +17,9 @@ public class ParenthesisBFStack{
     for(int i = 0; i < T; i++) {
       StringBuilder pts = sb.append(br.readLine());
       for(int j = 0; j < pts.length() ;j++) {
-        char c = pts.charAt(j);
+        char c = pts.charAt(j); //String으로 저장된 문자열 중에서 한 글자만 선택해서 
+        //char타입으로 변환해주는 녀석
+
         if (c =='(') {
           stack.push(c);
         } else if (stack.empty()) {
