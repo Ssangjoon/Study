@@ -31,24 +31,6 @@ public class Parenthesis  {
     } else {
       System.out.println("NO");
     }
-    //    while (n > 0) {
-    //      StringBuilder pt = sb.append(br.readLine());
-    //      char[] c = null;
-    //      for (int i = 0; i < pt.length(); i++) {
-    //        c[i] = pt.charAt(i);
-    //        switch(c[i]) {
-    //          case '(':
-    //            st.push(c[i]);
-    //            break;
-    //          case ')':
-    //            st.pop();
-    //            break;
-    //          default :
-    //            break;
-    //        }
-    //      }
-    //      n--;
-    //    }
 
   }
 
