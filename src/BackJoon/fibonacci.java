@@ -10,7 +10,7 @@ public class fibonacci {
     }
     else {
       return fibo(input -1) + fibo(input-2);
-    }// return (input -1) + (input-2); 왜 다르지?
+    }// return (input -1) + (input-2); 왜 다르지??
 
   }
 
