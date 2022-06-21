@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Gugudan3 {
 
   public static void main(String[] args) {
+    //사용자가 유효하지 않은 입력을 한 경우 다시 입력하도록 구현
     System.out.println("구구단 중 출력할 단은? : ");
     Scanner sc = new Scanner(System.in);
     int i = sc.nextInt();
