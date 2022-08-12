@@ -1,4 +1,5 @@
 package algorithm.data_stucture.interface_form;
+
 /**
  * 
  * 자바 List Interface입니다. <br>
