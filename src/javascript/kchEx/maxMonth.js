@@ -23,6 +23,7 @@ for(let i = 0; i< arr.length; i++){
 }
 console.log(parr)
 // 최고 매출 금액 찾기 
+// 각 분기별로 매출 평균을 만든다. 
 let max = 0;
 let period = 0;
 
