@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb9b80c-b306-4025-b6dc-4fca27d1da64" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/MainJosephus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/MainDequeue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainJosephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/MainJosephus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/baekjoon/MainQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/MainQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <workItem from="1667835874445" duration="3689000" />
       <workItem from="1667914900270" duration="730000" />
       <workItem from="1668000955451" duration="2507000" />
-      <workItem from="1668090986465" duration="766000" />
+      <workItem from="1668090986465" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="자료구조 에디터,,, 집중안됨 내일 다시">
       <created>1667738387034</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668005186157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1668091803635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668091803635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

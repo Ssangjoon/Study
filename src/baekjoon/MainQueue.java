@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class MainQueue {
-
+    // 링크드리스트와 arraydequeue로도 한번 해보기?
     private static int[] queue;
     private  static int size = 0;
     private static int front = 0;
