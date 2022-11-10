@@ -54,6 +54,7 @@ public class MainQueue {
         // 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
         if(size > 0){
             int that = queue[front];
+            queue[front] = 0;
             size--;
             front++;
             return that;
@@ -64,13 +65,21 @@ public class MainQueue {
     static int front(){
         // 큐의 가장 앞에 있는 정수를 출력한다.
         // 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
-        return queue[front];
+        if(size == 0) {
+            return -1;
+        } else {
+            return queue[front];
+        }
     }
 
     static int back(){
         // 큐의 가장 뒤에 있는 정수를 출력한다.
         // 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
-        return queue[back];
+        if(size == 0){
+            return -1;
+        } else {
+            return queue[back];
+        }
     }
 
     static int size(){
