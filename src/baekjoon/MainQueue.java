@@ -20,13 +20,14 @@ public class MainQueue {
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
+        queue = new int[N];
 
         while(N-- > 0){
             st = new StringTokenizer(br.readLine());
             String order = st.nextToken();
 
             switch (order){
-                case "push":
+                case "offer":
                     offer(Integer.parseInt(st.nextToken()));
                     break;
                 case "poll":
@@ -40,6 +41,9 @@ public class MainQueue {
                     break;
             }
         }
+            for (int i = 0; i < queue.length; i++) {
+                System.out.println(queue[i]);
+            }
     }
 
     static void offer(int x){
