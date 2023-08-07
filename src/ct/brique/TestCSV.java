@@ -1,4 +1,4 @@
-package brique;
+package ct.brique;
 
 import java.util.Arrays;
 import java.util.List;
