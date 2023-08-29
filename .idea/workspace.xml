@@ -4,117 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb9b80c-b306-4025-b6dc-4fca27d1da64" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/data_stucture/doit/basicDS/Recur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/data_stucture/doit/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/data_stucture/doit/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/deque/ArrayDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/deque/LinkedListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/deque/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/deque/Queue.java" afterDir="false" />
+    <list default="true" id="5cb9b80c-b306-4025-b6dc-4fca27d1da64" name="Changes" comment="deque">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/ReverseWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/Test/CharAt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/Test/ToArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/interface_form/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/test/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/test/LinkedList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/test/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/test/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/algorithm/data_stucture/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/GuguArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/Gugudan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/Gugudan2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/Gugudan3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/GugudanArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/GugudanArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/GugudanFinal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/GugudanMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/calcClock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/donutArea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/fnEx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/c02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/c03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/c05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/j01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/j02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/j03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/j04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/j05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/k01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/k03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/image/k05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/kiosk/v1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/knn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/lottoGen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/maxMonth copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/maxMonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/notTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/piggySave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/pointArr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/rebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/sortEx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/3team.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/ex1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/ex2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/ex3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/ex3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/testMap/store.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/todo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/ex1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/ex2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/ex3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/ex3_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/img/j01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/img/j02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/img/j03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/img/j04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/img/j05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/modalEx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/mp3/aaa.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/mp3/bbb.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/mp3/ccc.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/kchEx/w19/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/prompt-sync/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/prompt-sync/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/prompt-sync/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/prompt-sync/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/prompt-sync/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/README-Deprecated.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/lib/encrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/lib/read.cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/lib/read.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/lib/read.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/lib/readline-sync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/readline-sync/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/strip-ansi/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/promise/async.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/promise/callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/promise/promise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/promise/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/rendering/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/rendering/src/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/rendering/src/components/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/javascript/rendering/src/core/Components.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/data_stucture/doit/basicDS/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/data_stucture/doit/basicDS/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainDequeue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/deque/MainDequeue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,26 +71,13 @@
       <recent name="sharetreats" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDequeue">
+  <component name="RunManager" selected="Application.ReverseWord">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.data_stucture.doit.sort.InsertionSort" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.data_stucture.doit.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LastNElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.data_stucture.doit.basicDS.LastNElements" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.data_stucture.doit.basicDS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.data_stucture.doit.basicDS.Recur" />
+    <configuration name="MainReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.MainReverseString" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.data_stucture.doit.basicDS.*" />
+          <option name="PATTERN" value="baekjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.ReverseWord" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWord" />
+        <item itemvalue="Application.MainReverseString" />
         <item itemvalue="Application.MainDequeue" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.Recur" />
-        <item itemvalue="Application.LastNElements" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +219,8 @@
       <workItem from="1693096682338" duration="1167000" />
       <workItem from="1693099998256" duration="2663000" />
       <workItem from="1693109725780" duration="3663000" />
-      <workItem from="1693119024154" duration="6537000" />
+      <workItem from="1693119024154" duration="6842000" />
+      <workItem from="1693312122588" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="자료구조 에디터,,, 집중안됨 내일 다시">
       <created>1667738387034</created>
@@ -371,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691416980407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="deque">
+      <created>1693132833599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693132833599</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +292,8 @@
     <MESSAGE value="자료구조 에디터,,, 집중안됨 내일 다시" />
     <MESSAGE value="에디터, 짜증남...." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="deque" />
+    <option name="LAST_COMMIT_MESSAGE" value="deque" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,6 +332,11 @@
           <url>file://$PROJECT_DIR$/src/algorithm/data_stucture/doit/sort/ShellSort.java</url>
           <line>7</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/MainReverseString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
