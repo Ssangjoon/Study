@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb9b80c-b306-4025-b6dc-4fca27d1da64" name="Changes" comment="deque">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/ReverseWord.java" afterDir="false" />
+    <list default="true" id="5cb9b80c-b306-4025-b6dc-4fca27d1da64" name="Changes" comment="wordReverse">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainJosephus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainParenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MainReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/ReverseWord.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +75,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="sharetreats" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="baekjoon" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWord">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.data_stucture.doit.sort.InsertionSort" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.data_stucture.doit.sort.*" />
+          <option name="PATTERN" value="baekjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDequeue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.deque.MainDequeue" />
+    <configuration name="MainParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.MainParenthesis" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.deque.*" />
+          <option name="PATTERN" value="baekjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.data_stucture.doit.sort.ShellSort" />
+    <configuration name="ReverseWordCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.ReverseWordCopy" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.data_stucture.doit.sort.*" />
+          <option name="PATTERN" value="baekjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainParenthesis" />
+        <item itemvalue="Application.ReverseWordCopy" />
         <item itemvalue="Application.ReverseWord" />
         <item itemvalue="Application.MainReverseString" />
-        <item itemvalue="Application.MainDequeue" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +228,9 @@
       <workItem from="1693099998256" duration="2663000" />
       <workItem from="1693109725780" duration="3663000" />
       <workItem from="1693119024154" duration="6842000" />
-      <workItem from="1693312122588" duration="3904000" />
+      <workItem from="1693312122588" duration="5359000" />
+      <workItem from="1693335385542" duration="2739000" />
+      <workItem from="1693341406308" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="자료구조 에디터,,, 집중안됨 내일 다시">
       <created>1667738387034</created>
@@ -271,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693132833599</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="wordReverse">
+      <created>1693316423138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693316423138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,16 +310,12 @@
     <MESSAGE value="에디터, 짜증남...." />
     <MESSAGE value="." />
     <MESSAGE value="deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="deque" />
+    <MESSAGE value="wordReverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="wordReverse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/MainEditor.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ct/nullySoft/Test.java</url>
           <line>43</line>
@@ -332,11 +345,6 @@
           <url>file://$PROJECT_DIR$/src/algorithm/data_stucture/doit/sort/ShellSort.java</url>
           <line>7</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/MainReverseString.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
